@@ -1,0 +1,17 @@
+/* filepath: /c:/Users/olivi/Portfolio/EggTimer/src/components/TypeSelection/TypeSelection.css */
+.type-selection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .type-selection button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+  }

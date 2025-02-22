@@ -16,6 +16,14 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        type: 'asset/resource'
+      }
     ],
   },
   plugins: [
@@ -24,4 +32,11 @@ module.exports = {
     }),
   ],
   mode: 'development',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'public')
+    },
+    hot: true,
+    port: 3000,
+  },
 };

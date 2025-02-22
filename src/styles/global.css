@@ -1,0 +1,34 @@
+@import './variables.css';
+
+body {
+  font-family: 'Silkscreen', sans-serif;
+  background-color: black;
+  min-height: 100vh;         /* Make body full viewport height */
+  margin: 0;                 /* Remove default margin */
+  display: flex;             /* Enable flexbox */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  cursor: url(../assets/eggShellCursor.png), auto !important;
+}
+
+.app-container {
+  width: 400px;
+  height: 400px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  cursor: url(../assets/eggShellCursor.png), auto !important;
+}
+
+button{
+  color: var(--red);
+  background-color: white;
+  border: solid red;
+  font-family: 'Silkscreen', sans-serif;
+  margin: 2px;
+}
+
+button:hover{
+  color:black;
+  cursor: url(../assets/eggCursor.png), auto !important;
+}

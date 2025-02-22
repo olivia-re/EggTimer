@@ -1,5 +1,6 @@
 // filepath: /c:/Users/olivi/Portfolio/EggTimer/src/components/TimerScreen.js
 import React, { useState, useEffect } from 'react';
+import './TimerScreen.css'
 
 const TimerScreen = ({ duration, onFinish }) => {
   const [timeLeft, setTimeLeft] = useState(duration * 60);

@@ -5,6 +5,7 @@ import StartPage from './components/StartPage/StartPage';
 import TypeSelection from './components/TypeSelection/TypeSelection';
 import TimerScreen from './components/TimerScreen/TimerScreen';
 import DoneScreen from './components/DoneScreen/DoneScreen';
+import './styles/global.css';
 
 const EggTimer = () => {
   const [screen, setScreen] = useState('start');
@@ -29,4 +30,8 @@ const EggTimer = () => {
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<EggTimer />);
+root.render(
+  <div className="app-container">
+    <EggTimer />
+  </div>
+);

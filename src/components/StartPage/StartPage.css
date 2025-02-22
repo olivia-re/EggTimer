@@ -1,0 +1,12 @@
+.startPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+button {
+    padding: 20px;
+    /* Other button styles */
+}

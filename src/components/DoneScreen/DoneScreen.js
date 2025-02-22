@@ -3,8 +3,8 @@ import React from 'react';
 import './DoneScreen.css'
 
 const DoneScreen = () => (
-  <div>
-    <h1>Done!</h1>
+  <div className='doneScreen'>
+    <h1 className='done'>Done!</h1>
   </div>
 );
 

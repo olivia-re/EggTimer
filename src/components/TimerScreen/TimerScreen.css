@@ -1,0 +1,30 @@
+.timerScreen {
+    position: relative;
+    height: 400px;         /* Match app-container height */
+    width: 100%;          /* Take full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-shadow: 5px 5px 8px orange;
+}
+
+.timeLeft {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    -webkit-text-stroke: 2px orange;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    font-size: 80px;
+    margin-top: -20px;
+    -webkit-text-stroke: 2px orange;
+    text-shadow: 5px 5px 8px orange;
+}

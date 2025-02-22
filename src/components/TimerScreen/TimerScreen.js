@@ -21,8 +21,9 @@ const TimerScreen = ({ duration, onFinish }) => {
   };
 
   return (
-    <div>
-      <h2>Time Left: {formatTime(timeLeft)}</h2>
+    <div className='timerScreen'>
+      <h2 className='timeLeft'>Time Left: </h2>
+      <h1 className='timer'>{formatTime(timeLeft)}</h1>
     </div>
   );
 };

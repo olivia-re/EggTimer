@@ -8,5 +8,8 @@
 
 button {
     padding: 20px;
+    width: 300px;
+    height: 120px;
+    font-size: 32px;
     /* Other button styles */
 }

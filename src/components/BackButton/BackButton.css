@@ -1,0 +1,17 @@
+.back-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: black;
+    border: solid orange !important;
+    font-size: 12px;
+    padding: 0;
+    line-height: 1;
+}

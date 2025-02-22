@@ -1,17 +1,21 @@
-/* filepath: /c:/Users/olivi/Portfolio/EggTimer/src/components/TypeSelection/TypeSelection.css */
 .type-selection {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 1rem;
-    justify-items: center;
-    justify-content: center;
-  }
-  
-  .type-selection button {
+    column-gap: 0rem;      /* Horizontal gap between columns */
+    row-gap: 1rem;         /* Vertical gap between rows */
+    height: 400px;         /* Match parent container height */
+    place-content: center; /* Centers grid items */
+    place-items: center;   /* Centers items within their grid cells */
+    max-width: 400px;
+    padding-top: 20px;
+}
+
+.type-selection button {
     padding: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
     width: 130px;
     height: 130px;
-  }
+    
+}

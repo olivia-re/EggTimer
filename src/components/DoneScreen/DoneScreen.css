@@ -1,0 +1,28 @@
+.doneScreen {
+    position: relative;
+    height: 400px;         /* Match app-container height */
+    width: 100%;          /* Take full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.done{
+    justify-self: center;
+    align-self: center;
+
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke: 2px orange;
+    text-shadow: 5px 5px 8px orange;
+    
+    animation: hop 1s ease-in-out;  /* Run the animation once for 1 second */
+}
+
+@keyframes hop {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(0); }
+    80% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
